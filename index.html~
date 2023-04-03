@@ -3,13 +3,9 @@
 
   <head>
     <meta charset="utf-8">
-    <!-- Added viewport settings to make it work on a mobile phone. copy and paste -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <!-- Changed title to my name. The title will show up in the browser tab! -->
-    <title>Eric W</title>
-
+    <title>Savory</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   </head>
@@ -19,17 +15,10 @@
     <div class="container">
 
       <header>
-        <div class="wrapper">
-          <h1>Eric Wang</h1>
-            <p class="bio"> Junior @ Virginia Tech in CS
-            </p>
-          <div class="buttonBox">
-            <a class="myButton" href="#projects">Go</a>
-          </div>
-        </div>
+        <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/savory.svg" class="logo">
       </header>
 
-      <main id="projects">
+      <main>
         <div class="recipe a">
           <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-1.png" />
           <h2>CHOCOLATE MOUSSE</h2>
