@@ -116,6 +116,7 @@ img {
 .project {
   box-shadow: 0 0px 1px 0 rgb(0 0 0 / 40%);  
   width: 100%;
+  background-color: #bcaac7; 
 }
 
 .description {
@@ -132,6 +133,9 @@ img {
 .container {
   /*  min-width: 500px; */
   margin: auto;
+  background: #0099F7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 footer div {
